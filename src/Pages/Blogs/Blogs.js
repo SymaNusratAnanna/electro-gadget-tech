@@ -3,10 +3,10 @@ import React from "react";
 const Blogs = () => {
   return (
     <div>
-      <h1>Blogs</h1>
+      <h1 className="">Blogs</h1>
       <div>
         <h2>Difference between javascript and nodejs</h2>
-        <h3>
+        <h4>
           JavaScript is a simple programming language that runs on the
           JavaScript Engine in any browser. While Node JS is an interpreter or
           runtime environment for the JavaScript programming language, it
@@ -19,11 +19,11 @@ const Blogs = () => {
           RamdaJS, TypedJS, and other javascript frameworks are examples.
           Lodash, express, and other Nodejs modules are examples. These modules
           will be downloaded through npm.
-        </h3>
+        </h4>
       </div>
       <div>
         <h2>Differences between sql and nosql databases.</h2>
-        <h3>
+        <h4>
           RELATIONAL DATABASE MANAGEMENT SYSTEM (SQL) (RDBMS). Non-relational or
           distributed database system is Nosql. These databases have a fixed,
           static, or preset schema in SQL. They have dynamic schema in nosql,
@@ -34,11 +34,11 @@ const Blogs = () => {
           sql. Scalable vertically Vertically scalable ACID property is
           followed. CAP is followed (consistency, availability, partition
           tolerance)
-        </h3>
+        </h4>
       </div>
       <div>
           <h2>What is the purpose of jwt and how does it work</h2>
-        <h3>
+        <h4>
           JSON Web Token (JWT) is an open standard (RFC 7519) for securely
           sending data as a JSON object between parties. It is small, readable,
           and digitally signed by the Identity Provider using a private
@@ -59,7 +59,7 @@ const Blogs = () => {
           resources by passing the JWT in HTTP Authorization header. Resource
           server then verifies the authenticity of the token using the secret
           salt/ public key.
-        </h3>
+        </h4>
       </div>
     </div>
   );
