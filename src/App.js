@@ -11,6 +11,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Blogs from "./Pages/Blogs/Blogs";
 import InventoryDetails from "./Pages/InventoryDetails/InventoryDetails";
 import Notfound from "./Pages/Notfound/Notfound";
+import Login from "./Pages/Login/Login";
+import Register from "./Pages/Register/Register";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/inventory" element={<Inventory></Inventory>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/register" element={<Register></Register>}></Route>
         <Route path="*" element={<Notfound></Notfound>}></Route>
       </Routes>
       <Footer></Footer>
