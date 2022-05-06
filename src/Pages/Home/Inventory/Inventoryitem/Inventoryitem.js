@@ -22,7 +22,7 @@ const Inventoryitem = ({ inventoryitem }) => {
       </p>
 
       <button
-        onClick={navigateToInventoryDetail(id)}
+        onClick={()=>navigateToInventoryDetail(id)}
         className="btn btn-primary"
       >
         Manage
