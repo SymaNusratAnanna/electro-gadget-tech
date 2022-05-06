@@ -1,0 +1,51 @@
+[{
+    "id": 1,
+    "name": "Macbook pro",
+    "price": 18000,
+    "quantity": 15,
+    "supplier_name": "Apple",
+    
+    "description": "We designed a totally new architecture and turned the lenses almost 45 degrees to fit well in our best dual-camera system ever — with its biggest Wide camera sensor.",
+    "img": "https://ibb.co/Czdw4VB"
+  }, {
+    "id": 2,
+    "name": "Pollyanna",
+    "price": 5,
+    "quantity": 99,
+    "supplier_name": "Meevee",
+    "description": "",
+    "img": ""
+  }, {
+    "id": 3,
+    "name": "Merissa",
+    "price": 57,
+    "quantity": 86,
+    "supplier_name": "Linklinks",
+    "description": "",
+    "img": ""
+  }, {
+    "id": 4,
+    "name": "Daisy",
+    "price": 58,
+    "quantity": 58,
+    "supplier_name": "Twitternation",
+    "description": "",
+    "img": ""
+  }, {
+    "id": 5,
+    "name": "Joey",
+    "price": 16,
+    "quantity": 65,
+    "supplier_name": "Voonix",
+    "description": "",
+    "img": ""
+  }, {
+    "id": 6,
+    "name": "Doralyn",
+    "price": 14,
+    "quantity": 90,
+    "supplier_name": "Flipopia",
+    "description": "",
+    "img": ""
+  }]
+  
