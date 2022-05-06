@@ -18,7 +18,7 @@ const Objectives = () => {
         </p>
       </div>
       <div>
-          
+         <img src="" alt=""></img> 
       </div>
     </div>
   );
