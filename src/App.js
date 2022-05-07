@@ -13,6 +13,9 @@ import InventoryDetails from "./Pages/InventoryDetails/InventoryDetails";
 import Notfound from "./Pages/Notfound/Notfound";
 import Login from "./Pages/Login/Login";
 import Register from "./Pages/Register/Register";
+import RequireAuth from "./Pages/Login/RequiredAuth/RequireAuth";
+import Checkout from "./Pages/Checkout/Checkout";
+import SocialLogin from "./Pages/Login/SocialLogin/SocialLogin";
 
 function App() {
   return (
@@ -20,19 +23,25 @@ function App() {
       {/* set route */}
       <Header></Header>
       <Routes>
-        <Route path="/" element={<Home></Home>}>
-          {" "}
-        </Route>
+        <Route path="/" element={<Home></Home>}></Route>
         <Route
           path="/inventoryitem/:inventoryId"
-          element={<InventoryDetails></InventoryDetails>}
-        ></Route>
+          element={<InventoryDetails></InventoryDetails>}></Route>
         <Route path="/about" element={<About></About>}></Route>
-        <Route path="/home" element={<Home></Home>}> </Route>
+        <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/inventory" element={<Inventory></Inventory>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
+        <Route
+          path="/checkout"
+          element={
+            <RequireAuth>
+              <Checkout></Checkout>
+            </RequireAuth>
+          }
+        ></Route>
+        <Route path="/sociallogin" element={<SocialLogin></SocialLogin>}></Route>
         <Route path="*" element={<Notfound></Notfound>}></Route>
       </Routes>
       <Footer></Footer>
