@@ -1,4 +1,5 @@
 import React from "react";
+import image from '../../../images/about/about.jpeg';
 
 const Objectives = () => {
   return (
@@ -18,7 +19,11 @@ const Objectives = () => {
         </p>
       </div>
       <div>
-         <img src="" alt=""></img> 
+      <img
+        className="d-block w-100"
+        src={image}
+        alt=""/>
+      
       </div>
     </div>
   );
