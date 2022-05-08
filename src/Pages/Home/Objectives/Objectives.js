@@ -1,10 +1,11 @@
 import React from "react";
-import image from '../../../images/about/about.jpeg';
+import './Objectives.css'
+import image from '../../../images/about/goal.jpg';
 
 const Objectives = () => {
   return (
-    <div>
-      <div>
+    <div className="intro-container">
+      <div className='headline'>
         <h2>Our goal and Objectives</h2>
         <p>
           Our objective is to Reduce our clients overall Logistics Cost and
@@ -19,11 +20,13 @@ const Objectives = () => {
         </p>
       </div>
       <div>
-      <img
+      <div className='img'>
+            <img
         className="d-block w-100"
         src={image}
-        alt=""/>
-      
+        alt=""
+      />
+      </div>
       </div>
     </div>
   );

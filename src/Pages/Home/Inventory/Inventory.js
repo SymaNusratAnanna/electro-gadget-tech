@@ -6,7 +6,9 @@ import Inventoryitem from '../Inventory/Inventoryitem/Inventoryitem'
 const Inventory = () => {
     const [inventory,setInventory]= useState([]);
     useEffect(()=>{
-        fetch('inventory.json')
+        // fetch data
+
+        fetch('http://localhost:5000/inventoryitem')
         .then(res=>res.json())
         .then(data=>setInventory(data));
     },[])
@@ -15,9 +17,10 @@ const Inventory = () => {
             <h2 className='inventory-title mt-5'>Inventory</h2>
 
             <div className='inventory-container'>
+                {/* map */}
             {
                inventory.map(inventoryitem => <Inventoryitem
-               key={inventoryitem.id}
+               key={inventoryitem._id}
                inventoryitem={inventoryitem}>
 
                </Inventoryitem>

@@ -23,6 +23,7 @@ const Login = () => {
     useSignInWithEmailAndPassword(auth);
     const[sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
+  // loading data
 if(loading|| sending){
   return <Loading></Loading>
 }
@@ -30,6 +31,8 @@ if(loading|| sending){
     if(user){
       navigate (from, {replace: true});
   }
+
+  // error message
 
   if(error){
     errorElement=<div><p className="text-danger">Error: {error?.message}</p></div>
@@ -48,7 +51,7 @@ if(loading|| sending){
     navigate("/register");
   };
 
-  
+  // reset password
   const resetPassword = async() =>{
     const email=emailRef.current.value;
     if (email){
@@ -96,6 +99,7 @@ if(loading|| sending){
         </Button>
       </Form>
       {errorElement}
+      {/* toggle part */}
       <p>
         New to Electro Gadget Tech?<Link to="/register"
           className="text-danger text-decoration-none"

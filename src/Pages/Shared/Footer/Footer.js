@@ -6,8 +6,8 @@ const Footer = () => {
     
     return (
 
-        <footer className='text-center mt-5'>
-            <p><small>copyright @{year}</small></p>
+        <footer className='text-center mt-5 bg-black'>
+            <p className='text-white'><small>copyright <span className='text-primary'>Electro Gadget Tech</span> @{year}</small></p>
 
         </footer>
     );

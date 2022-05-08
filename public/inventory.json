@@ -1,51 +1,78 @@
 [{
-    "id": 1,
+    
     "name": "Macbook pro",
-    "price": 18000,
+    "price": 180000,
     "quantity": 15,
     "supplier_name": "Apple",
     
     "description": "We designed a totally new architecture and turned the lenses almost 45 degrees to fit well in our best dual-camera system ever — with its biggest Wide camera sensor.",
-    "img": "https://ibb.co/Czdw4VB"
+    "img": "https://i.ibb.co/zxsLXVx/dmitry-chernyshov-m-P7a-PSUm7a-E-unsplash.jpg"
   }, {
-    "id": 2,
-    "name": "Pollyanna",
-    "price": 5,
-    "quantity": 99,
-    "supplier_name": "Meevee",
-    "description": "",
-    "img": ""
+    
+    "name": "Acer",
+    "price": 50000,
+    "quantity": 25,
+    "supplier_name": "Acer",
+    "description": "Electro Gadget Tech Provides the latest Acer laptops at best price in BD. Find your Acer laptop model at lowest price.Order online or visit your nearest Electro Gadget Tech .",
+    "img": "https://i.ibb.co/YZSjkpV/jeroen-den-otter-3s-NCXoe-QYn-I-unsplash.jpg"
   }, {
-    "id": 3,
-    "name": "Merissa",
-    "price": 57,
-    "quantity": 86,
-    "supplier_name": "Linklinks",
-    "description": "",
-    "img": ""
+    
+    "name": "Dell",
+    "price": 57000,
+    "quantity": 26,
+    "supplier_name": "Dell",
+    "description": "Electro Gadget Tech Provides the latest Dell laptops at best price in BD. Find your Acer laptop model at lowest price.Order online or visit your nearest Electro Gadget Tech ",
+    "img": "https://i.ibb.co/zhMZ93V/erick-cerritos-i5-UV2-Hp-ITYA-unsplash.jpg"
   }, {
-    "id": 4,
-    "name": "Daisy",
-    "price": 58,
-    "quantity": 58,
-    "supplier_name": "Twitternation",
-    "description": "",
-    "img": ""
+    
+    "name": "Iphone 11 pro",
+    "price": 78000,
+    "quantity": 18,
+    "supplier_name": "Apple",
+    "description": "Apple iPhone 11 Pro smartphone. Announced Sep 2019. Features 5.8″ display, Apple A13 Bionic chipset, 3046 mAh battery, 512 GB storage,Available in Electro Gadget Tech",
+    "img": "https://i.ibb.co/z6dfJcg/youssef-sarhan-tze1k-Kj7-Lgg-unsplash.jpg"
   }, {
-    "id": 5,
-    "name": "Joey",
-    "price": 16,
-    "quantity": 65,
-    "supplier_name": "Voonix",
-    "description": "",
-    "img": ""
+    
+    "name": "Iphone 10",
+    "price": 65000,
+    "quantity": 15,
+    "supplier_name": "Apple",
+    "description": "The new Apple iPhone X (iPhone 10) measures 143.6 x 70.9 x 7.7 mm and weighs in at just 174g. So it can be considered as a lightweight .Available at Electro Gdget Tech",
+    "img": "https://i.ibb.co/zxmPfGH/v-a-tao-Oxvl-DO8-Rw-Kg-unsplash.jpg"
   }, {
-    "id": 6,
-    "name": "Doralyn",
+    
+    "name": "Hp Laptop",
+    "price": 85000,
+    "quantity": 21,
+    "supplier_name": "Hp",
+    "description": "Electro Gadget Tech Provides the latest Hp laptops at best price in BD. Find your Acer laptop model at lowest price.Order online or visit your nearest Electro Gadget Tech .",
+    "img": "https://i.ibb.co/qyHLh8y/thisisengineering-raeng-nwif-Bnh-Rc-P8-unsplash-1.jpg"
+  
+  }, {
+    
+    "name": "HeadPhone",
+    "price": 1400,
+    "quantity": 30,
+    "supplier_name": "Xiomi",
+    "description": "Electro Gadget Tech Provides the latest Xiomy products at best price in BD. Find your Acer laptop model at lowest price.Order online or visit your nearest Electro Gadget Tech ",
+    "img": "https://i.ibb.co/WsTyd21/fausto-sandoval-w5m3-PIGvkq-I-unsplash.jpg"
+  
+  }, {
+    
+    "name": "EOS R3",
     "price": 14,
     "quantity": 90,
-    "supplier_name": "Flipopia",
-    "description": "",
-    "img": ""
+    "supplier_name": "Cannon Inc",
+    "description": "Electro Gadget Tech Provides the latest Cannon Camera at best price in BD. Find your Acer laptop model at lowest price.Order online or visit your nearest Electro Gadget Tech ",
+    "img": "https://i.ibb.co/WGHq1bf/siusing-tong-d-UWth-Kd-SKY-unsplash.jpg"
+  
+  }, {
+    
+    "name": "Samsung Galaxy S7 Tablet",
+    "price": 7500,
+    "quantity": 23,
+    "supplier_name": "Samsung",
+    "description": "Electro Gadget Tech Provides the latest Samsung products at best price in BD. Find your Acer laptop model at lowest price.Order online or visit your nearest Electro Gadget Tech ",
+    "img": "https://i.ibb.co/CJvdJQr/mana-akbarzadegan-nz-Wv7exg-VI-unsplash.jpg"
   }]
   

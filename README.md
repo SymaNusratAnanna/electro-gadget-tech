@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Electro-Gadget-Tech
 
 This project was bootstrapped with [Electro-Gadget-Tech](https://github.com/facebook/create-react-app).
 

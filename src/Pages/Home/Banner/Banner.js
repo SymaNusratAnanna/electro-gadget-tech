@@ -3,7 +3,7 @@ import { Carousel } from "react-bootstrap";
 
 import banner1 from  '../../../images/Banner/banner1.jpg';
 import banner2 from  '../../../images/Banner/banner2.jpg';
-import banner3 from  '../../../images/Banner/banner1.jpg';
+import banner3 from  '../../../images/Banner/banner3.jpg';
 
 const Banner = () => {
     const [index, setIndex] = useState(0);
@@ -21,8 +21,8 @@ const Banner = () => {
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h3>Electro Gadget Tech</h3>
+        <p>We provide Quality Products for business and Consumer</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -33,8 +33,8 @@ const Banner = () => {
       />
 
       <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3>Electro Gadget Tech</h3>
+        <p>We provide Quality Products for business and Consumer</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -45,9 +45,9 @@ const Banner = () => {
       />
 
       <Carousel.Caption>
-        <h3>Third slide label</h3>
+        <h3>Electro Gadget Tech</h3>
         <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        We provide Quality Products for business and Consumer
         </p>
       </Carousel.Caption>
     </Carousel.Item>
