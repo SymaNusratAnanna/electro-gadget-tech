@@ -26,12 +26,22 @@ const Inventoryitem = ({ inventoryitem }) => {
     <p class="card-text">{description}</p>
     
 
+   <div className="d-flex">
+   <div>
     <button
         onClick={()=>navigateToInventoryDetail(_id)}
-        className="btn btn-primary"
+        className="btn btn-primary mx-2"
       >
         Manage
        </button>
+
+    </div>
+
+    
+       <div>
+       <button className="btn btn-primary "> Delete</button>
+       </div>
+   </div>
 
     
   </div>

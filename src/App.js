@@ -17,6 +17,7 @@ import RequireAuth from "./Pages/Login/RequiredAuth/RequireAuth";
 import Checkout from "./Pages/Checkout/Checkout";
 import SocialLogin from "./Pages/Login/SocialLogin/SocialLogin";
 import AddItem from "./Pages/InventoryDetails/AddItem/AddItem";
+import Myitem from "./Pages/InventoryDetails/Myitem/Myitem";
 
 function App() {
   return (
@@ -47,6 +48,14 @@ function App() {
           element={
             <RequireAuth>
               <AddItem></AddItem>
+            </RequireAuth>
+          }
+        ></Route>
+        <Route
+          path="/myitem"
+          element={
+            <RequireAuth>
+              <Myitem></Myitem>
             </RequireAuth>
           }
         ></Route>

@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 const AddItem = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {console.log(data);
-    const url = `http://localhost:5000/inventoryitem`;
+    const url = `https://stormy-bastion-00241.herokuapp.com/inventoryitem`;
     fetch(url,{
         method: 'POST',
         headers:{
@@ -18,7 +18,8 @@ const AddItem = () => {
     })
 };
     return (
-        <div className='w-50 mx-auto'>
+       <div>
+            <div className='w-50 mx-auto'>
             <h2>Please add a Item</h2>
             <form className='d-flex flex-column' onSubmit={handleSubmit(onSubmit)}>
       <input className='mb-2'placeholder='Name' {...register("name", { required: true, maxLength: 20 })} />
@@ -30,6 +31,12 @@ const AddItem = () => {
       <input type="submit" value="Add Item" />
     </form>
         </div>
+
+
+
+       </div>
+
+
     );
 };
 

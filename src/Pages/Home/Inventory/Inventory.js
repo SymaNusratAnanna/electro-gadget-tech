@@ -8,7 +8,7 @@ const Inventory = () => {
     useEffect(()=>{
         // fetch data
 
-        fetch('http://localhost:5000/inventoryitem')
+        fetch('https://stormy-bastion-00241.herokuapp.com/inventoryitem')
         .then(res=>res.json())
         .then(data=>setInventory(data));
     },[])

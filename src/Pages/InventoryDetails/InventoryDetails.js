@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import { useForm } from "react-hook-form";
 
 const InventoryDetails = () => {
   const { inventoryitemId } = useParams();
   const [inventoryitem, setInventoryitem] = useState({});
+  const { register, handleSubmit } = useForm();
   const { _id, name, img, description, price, quantity, supplier_name } =
     inventoryitem;
   const navigate = useNavigate();
@@ -12,7 +14,7 @@ const InventoryDetails = () => {
   };
 
   useEffect(() => {
-    const url = `http://localhost:5000/inventoryitem/${inventoryitemId}`;
+    const url = `https://stormy-bastion-00241.herokuapp.com/inventoryitem/${inventoryitemId}`;
 
     fetch(url)
       .then((res) => res.json())
@@ -51,6 +53,10 @@ const InventoryDetails = () => {
         </div>
       </div>
     </div>
+    <div className='w-50 mx-auto text-center mt-10'>
+                   <h2>Restock-Inventory</h2>
+<input className='mb-2'placeholder=' Restock-Quantity' type="number" {...register("quantity")} />
+</div>
     </div>
   );
 };
