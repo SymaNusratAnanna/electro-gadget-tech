@@ -1,6 +1,6 @@
 # Electro-Gadget-Tech
 
-This project was bootstrapped with [Electro-Gadget-Tech](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Electro-Gadget-Tech](https://electro-gadget-tech.web.app/).
 
 
 ## About  Electro Gadget Tech 
