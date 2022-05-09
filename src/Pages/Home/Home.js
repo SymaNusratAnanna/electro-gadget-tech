@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import Banner from './Banner/Banner';
 import Intro from './Intro/Intro';
@@ -7,6 +8,10 @@ import Objectives from './Objectives/Objectives';
 
 const Home = () => {
     const [inventory,setInventory]= useState([]);
+    const navigate = useNavigate();
+    const navigateToInventory = ()=>{
+        navigate('/inventory');
+    }
     
     useEffect(()=>{
         // fetch data
@@ -32,6 +37,7 @@ const Home = () => {
                             </Inventoryitem>
                                 )
                     }
+                    <button onClick={navigateToInventory} className="d-block mx-auto btn btn-primary mt-5">Manage Inventory</button>
                 </div>
 
             </div>
