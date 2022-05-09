@@ -18,7 +18,7 @@ import Checkout from "./Pages/Checkout/Checkout";
 import SocialLogin from "./Pages/Login/SocialLogin/SocialLogin";
 import AddItem from "./Pages/InventoryDetails/AddItem/AddItem";
 import Myitem from "./Pages/InventoryDetails/Myitem/Myitem";
-
+import { ToastContainer } from 'react-toastify';
 function App() {
   return (
     <div>
@@ -63,6 +63,7 @@ function App() {
         <Route path="*" element={<Notfound></Notfound>}></Route>
       </Routes>
       <Footer></Footer>
+      <ToastContainer />
     </div>
   );
 }

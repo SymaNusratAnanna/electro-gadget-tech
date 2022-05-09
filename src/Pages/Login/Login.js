@@ -5,11 +5,12 @@ import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from "react-
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import auth from "../../firebase.init";
 import SocialLogin from "./SocialLogin/SocialLogin";
- import { ToastContainer, toast } from 'react-toastify';
+ 
 
 import 'react-toastify/dist/ReactToastify.css';
 import Loading from "../Shared/Loading/Loading";
 import axios from "axios";
+import { toast } from "react-toastify";
 
 const Login = () => {
   const emailRef = useRef("");
@@ -118,7 +119,7 @@ if(loading|| sending){
       </p>
       
       <SocialLogin></SocialLogin>
-      <ToastContainer />
+      
     </div>
     
   );

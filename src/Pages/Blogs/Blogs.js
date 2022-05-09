@@ -1,10 +1,11 @@
 import React from "react";
+import './Blogs.css'
 
 const Blogs = () => {
   return (
     <div className="mx-10 my-10 text-center p-5">
       <h1 className="">Blogs</h1>
-      <div>
+      <div className="blog1">
         <h2>Difference between javascript and nodejs</h2>
         <h4>
           JavaScript is a simple programming language that runs on the
@@ -21,7 +22,7 @@ const Blogs = () => {
           will be downloaded through npm.
         </h4>
       </div>
-      <div>
+      <div className="blog2">
         <h2>Differences between sql and nosql databases.</h2>
         <h4>
           RELATIONAL DATABASE MANAGEMENT SYSTEM (SQL) (RDBMS). Non-relational or
@@ -36,7 +37,7 @@ const Blogs = () => {
           tolerance)
         </h4>
       </div>
-      <div>
+      <div className="blog3">
           <h2>What is the purpose of jwt and how does it work</h2>
         <h4>
           JSON Web Token (JWT) is an open standard (RFC 7519) for securely
